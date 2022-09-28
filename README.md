@@ -1,0 +1,1 @@
+Faucet: https://faucet.avax.network/
