@@ -4,11 +4,14 @@ Faucet: https://faucet.avax.network/
   
 | Name | Address |
 |---|---|
-| ARC | 0xhexaddress |
-| Cosmic Orb | 0xhexaddress |
-| XX | 0xhexaddress |
-| XXX | 0xhexaddress |
-| XXXX | 0xhexaddress |
-| XXXXX | 0xhexaddress |
-| XXXXXX | 0xhexaddress |
- 
+| orb | 0x6f27cA68316BBC777D5D1F3D83CC0F9a1F834A42 |
+| emissions | 0x8BF48fd315786f6b514E9631789F7AFc3Bb85c50 |
+| arc | 0xfcb9E0A00B4664e0B21123833f310d8EA3e00647 |
+| bank | 0x766Ea86F77AF41d2dE3542d0C510EF35eDF59a6D |
+| girl | 0xe4ab9888D97C463C7e3D7f85E22561eF9e8F7986 |
+| gacha | 0x23107222EbDCdFf521A24bb11B1F71436d33D0CA |
+| dust | 0xCf6e4Cca99e9edCf880853eECea97861503ef479 |
+| moonstone | 0xFccfD7Bc7d7Fe24CCF1B2e8B902620f881507091 |
+| elemental | 0xF84E1D83B3953878dc6Ba92A8f17E01baD499E53 |
+| attunement | 0x6438d3bBf004915567340bDF39f8143C814697Be |
+| marketplace | 0x05B83C9c7687ab1Ae1eB95be9179179465B7d588 |
