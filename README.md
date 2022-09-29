@@ -1,5 +1,5 @@
-Faucet: https://faucet.avax.network/
-Test User: 0x058153A64dCfff85b3FdaA6F47431c60570AFB6E
+Faucet: https://faucet.avax.network/  
+Test User: 0x058153A64dCfff85b3FdaA6F47431c60570AFB6E  
 
 # Addresses  
   
