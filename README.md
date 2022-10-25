@@ -1,17 +1,17 @@
 Faucet: https://faucet.avax.network/
 
-# Addresses  
-  
-| Name | Address |
-|---|---|
-| orb | 0x5fAcc0621AabD2A0427Ba45Ba5dcB3ca62c3DaDE |
-| emissions | 0x66D4ECAb4f3DD6Dc6e75C7fa53e377Bbd29e3E7a |
-| arc | 0x41E62921a73a8Cf953DadFA82F943144CCf94C31 |
-| bank | 0x880D7c16a25AE001a9415C9e621c582060377718 |
-| girl | 0x921BD78A38F32E94Ad3Fbe26F8A2942976eAbD75 |
-| gacha | 0x2eC6d2Bb1e9B12F6a907CA7D2EB72B5BFCADce67 |
-| dust | 0x51ef93F5c491fe193653F7A4bA7490e44E015Bdb |
-| moonstone | 0x993D74611B5FdA24B947D04eC31A3b21D8F5f4A0 |
-| elemental | 0xeFEC38fbE71655e20954Bbf169251360aFCbEa80 |
-| attunement | 0xE84206B259E77Ebc60215Fd9f0D587Da06fB23e0 |
-| marketplace | 0x3D1434891dc0aca0dEC7A0fE95b71a0407F3da95 |
+# Addresses
+
+| Name        | Address |
+| ----------- | ------- |
+| orb         | 0x      |
+| emissions   | 0x      |
+| arc         | 0x      |
+| bank        | 0x      |
+| girl        | 0x      |
+| gacha       | 0x      |
+| dust        | 0x      |
+| moonstone   | 0x      |
+| elemental   | 0x      |
+| attunement  | 0x      |
+| marketplace | 0x      |
