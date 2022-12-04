@@ -29,7 +29,7 @@ does: mints one girl when orb is used on the last charge (5) (need girlId AND or
   (6 means random, 2-5 means guarantee)
 
   let setTx = await girl.mint(true, 69, {
-    value: await girl.getCost(),
+    value: await girl.getDiscountCost(),
     gasLimit: 99999
   });
   await setTx.wait();
