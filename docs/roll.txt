@@ -1,0 +1,32 @@
+ROLL
+
+event GachaSpun(user, _gachaAddress, _method, _amount);
+
+
+arc.spinGacha(gachaAddress, amount)
+
+amount = 1 || 10 only
+
+.wait() for full success
+
+then check event _method
+
+_method is backend endpoint
+  returns 'roll1' or 'roll10'
+
+send hash
+
+backend/roll1
+  body = {
+    hash: hash
+  }
+
+OR
+
+backend/roll10
+  body = {
+    hash: hash
+  }
+
+
+then start looking for backend/:hash for .data which will give results

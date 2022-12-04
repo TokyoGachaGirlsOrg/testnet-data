@@ -1,0 +1,40 @@
+BACKEND METHODS
+
+POST request
+
+backend/roll1
+  body = {
+    hash: hash
+  }
+
+backend/roll10
+  body = {
+    hash: hash
+  }
+
+backend/mintGirl-random
+  body = {
+    hash: hash,
+    tokenId: tokenId
+  }
+
+backend/mintGirl-orb
+  body = {
+    hash: hash,
+    tokenId: tokenId,
+    orbRarity: orbRarity
+  }
+
+backend/levelUp-gamerScore
+  body = {
+    hash: hash,
+    tokenId: tokenId,
+    newLevel: newLevel
+  }
+
+backend/levelUp-cosmicLevel
+  body = {
+    hash: hash,
+    tokenId: tokenId,
+    newLevel: newLevel
+  }

@@ -1,0 +1,36 @@
+MINT GIRL
+
+important event
+  emit MintStarted(user, usingOrb, rarity, girlId);
+
+uses 2 different end point laid out below
+
+contract method:
+  girl.mint(usingOrb, orbId)
+
+
+need to .wait() for transaction to be fully complete AND success before talk to backend
+
+
+backend endpoint: /mintGirl-random
+does: mints one girl without orb guarantee (random) (need girlId from event)
+
+  let setTx = await girl.mint(false, 0, {
+    value: await girl.getCost(),
+    gasLimit: 99999
+  });
+  await setTx.wait();
+
+backend endpoint: /mintGirl-orb
+does: mints one girl when orb is used on the last charge (5) (need girlId AND orbRarity from event)
+  
+  ********* IF rarity from event === 6 use /mintGirl-random INSTEAD ********
+  only use this endpoint if !== 6
+  (6 means random, 2-5 means guarantee)
+
+  let setTx = await girl.mint(true, 69, {
+    value: await girl.getCost(),
+    gasLimit: 99999
+  });
+  await setTx.wait();
+

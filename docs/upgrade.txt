@@ -1,0 +1,40 @@
+
+UPGRADE
+
+** same as before but with event and endpoint to update db **
+
+upgrade cosmic level
+
+elemental.upgradeCosmicLevel(GirlId, toTier)
+
+emit CosmicLevelUpgraded(id, toTier);
+
+.wait() for success
+
+check event
+
+send backend:
+  hash
+  tokenId
+  newLevel
+
+------------------------
+
+same as above but diff contract and name
+
+upgrade gamer score
+
+moonstone.upgradeGamerScore(GirlId, toTier)
+
+emit GamerScoreUpgraded(id, toTier);
+
+.wait() for success
+
+check event
+
+send backend:
+  hash
+  tokenId
+  newLevel
+
+
