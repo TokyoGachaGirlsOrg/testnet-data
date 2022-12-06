@@ -1,7 +1,0 @@
-RESULTS
-
-backend/results/:hash
-
-returns json with .data which contains the results for user feedback
-
-takes time to update
